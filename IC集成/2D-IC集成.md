@@ -5,7 +5,7 @@
 ## 1. 引线键合（Wire Bonding）
 
 ```txt
-空气 / 塑封料 / 可选散热盖
+塑封料
 → 多颗 silicon die，正面朝上并排，有源层和焊盘位于上表面
 → die attach
 → package substrate（wire bond 从各芯片顶面外围焊盘跨接到基板焊盘）
@@ -20,7 +20,7 @@
 ## 2. 倒装芯片（Flip Chip）
 
 ```txt
-空气 / 塑封料 / 可选散热盖
+塑封料
 → 多颗 silicon die 的背面，芯片并排且正面朝下
 → die有源层和焊盘
 → C4 / C2 填充 underfill
@@ -32,7 +32,7 @@
 ## 3. 引线键合与倒装芯片混合集成
 
 ```txt
-空气 / 塑封料 / 可选散热盖
+塑封料
 → face-up die（顶面焊盘接 wire bond）+ face-down die
 → die attach（用于 face-up die）+ C4 / C2 填充 underfill（用于 face-down die）
 → package substrate
@@ -45,8 +45,7 @@
 ## 4. Chip-first 扇出集成
 
 ```txt
-空气
-→ EMC，包覆多颗已先放置的 silicon die 背面和侧壁
+塑封料
 → silicon die，通常正面朝下，有源层和焊盘在重构晶圆的下表面
 → 直接制作在芯片焊盘和 EMC 表面的 fan-out RDL
 → BGA solder balls
@@ -62,8 +61,7 @@
 ## 5. Chip-last 扇出集成
 
 ```txt
-空气
-→ EMC 包覆后贴装芯片的背面、侧壁并填充芯片下方间隙
+塑封料
 → 多颗 silicon die，后贴装且正面朝下
 → C2 + molded underfill（即渗入的EMC）⬅ 比chip-first多了这层
 → 预先制作的 fan-out RDL substrate
