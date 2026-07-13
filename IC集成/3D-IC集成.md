@@ -13,7 +13,7 @@
 
 3D IC Packaging 的共同特征是：多个功能芯片垂直堆叠，但垂直互连主要由封装级互连完成，而不是由芯片内 TSV 完成。
 
-![3D IC Packaging 总括拓扑](/pictures/3D/3D封装总括拓扑-Fig7.1.png)
+![3D IC Packaging 总括拓扑](/images/3D/3D封装总括拓扑-Fig7.1.png)
 
 图片来源：`[PDF]` p.344，Fig. 7.1。
 
@@ -32,7 +32,7 @@
 
 这种结构的关键不是芯片间高密度互连，而是把多层存储芯片机械堆叠，并通过外围引线逐层引出到基板。
 
-![Samsung SSD 的引线键合存储器堆叠](/pictures/3D/引线键合存储器堆叠.png)
+![Samsung SSD 的引线键合存储器堆叠](/images/3D/引线键合存储器堆叠.png)
 
 图片来源：`[PDF]` p.349，Figs. 7.7-7.8。
 
@@ -69,11 +69,11 @@
 → package substrate
 ```
 
-![Sony 面对面堆叠并通过引线引出](/pictures/3D/面对面-引线.png)
+![Sony 面对面堆叠并通过引线引出](/images/3D/面对面-引线.png)
 
 图片来源：`[PDF]` p.350，Fig. 7.9。
 
-![面对面键合并通过焊球连接基板](/pictures/3D/面对面-焊球.png)
+![面对面键合并通过焊球连接基板](/images/3D/面对面-焊球.png)
 
 图片来源：`[PDF]` p.351，Fig. 7.12。
 
@@ -101,7 +101,7 @@
 → PCB
 ```
 
-![Intel PMB9955 背对背堆叠](/pictures/3D/背对背-引线.png)
+![Intel PMB9955 背对背堆叠](/images/3D/背对背-引线.png)
 
 图片来源：`[PDF]` p.351，Fig. 7.11。
 
@@ -125,7 +125,7 @@
 → package substrate
 ```
 
-![面对背 fan-out 堆叠](/pictures/3D/面对背.png)
+![面对背 fan-out 堆叠](/images/3D/面对背.png)
 
 图片来源：`[PDF]` p.354，Fig. 7.18。
 
@@ -148,7 +148,7 @@
 → PCB
 ```
 
-![Fujikura WABE 嵌入式芯片 SiP](/pictures/3D/嵌入式芯片.png)
+![Fujikura WABE 嵌入式芯片 SiP](/images/3D/嵌入式芯片.png)
 
 图片来源：`[PDF]` p.356，Fig. 7.20。
 
@@ -160,7 +160,7 @@
 
 PoP 的共同特征是：顶部封装通常承载 memory stack，底部封装承载 application processor / chiplets / PMIC，两个封装通过焊球、Cu-core balls、TIV / TMV 或中介层连接。
 
-![PoP 总括拓扑](/pictures/3D/PoP总括拓扑-Fig7.2.png)
+![PoP 总括拓扑](/images/3D/PoP总括拓扑-Fig7.2.png)
 
 图片来源：`[PDF]` p.345，Fig. 7.2。
 
@@ -178,7 +178,7 @@ PoP 的共同特征是：顶部封装通常承载 memory stack，底部封装承
 → PCB
 ```
 
-![Apple A9 倒装芯片 PoP](/pictures/3D/PoP-倒装.png)
+![Apple A9 倒装芯片 PoP](/images/3D/PoP-倒装.png)
 
 图片来源：`[PDF]` p.357，Fig. 7.21。
 
@@ -202,7 +202,7 @@ PoP 的共同特征是：顶部封装通常承载 memory stack，底部封装承
 → PCB
 ```
 
-![Apple TSMC InFO PoP](/pictures/3D/PoP-扇出.png)
+![Apple TSMC InFO PoP](/images/3D/PoP-扇出.png)
 
 图片来源：`[PDF]` p.360，Fig. 7.26。
 
@@ -218,7 +218,7 @@ PoP 的共同特征是：顶部封装通常承载 memory stack，底部封装承
 
 3D IC Integration 的共同特征是：垂直堆叠是通过 TSV、microbump 或 hybrid bonding 形成高密度的 chip-to-chip 互连。书中把 3D IC Integration 概括成三种基本结构：HBM memory stack、memory-on-logic with TSV，以及 bumpless hybrid bonding with TSV。
 
-![3D IC Integration 总括拓扑](/pictures/3D/3DIC集成总括拓扑-Fig7.30.png)
+![3D IC Integration 总括拓扑](/images/3D/3DIC集成总括拓扑-Fig7.30.png)
 
 图片来源：`[PDF]` p.362，Fig. 7.30。
 
@@ -238,11 +238,11 @@ mold / 可选 heat spreader
 → PCB
 ```
 
-![HBM HBM2 HBM2E 规格与结构](/pictures/3D/HBM规格.png)
+![HBM HBM2 HBM2E 规格与结构](/images/3D/HBM规格.png)
 
 图片来源：`[PDF]` p.363，Fig. 7.31。图中的 HBM3 数值是该书 2021 年出版时的预期值，仅作为现行标准参考。
 
-![HBM TCB-NCF 组装](/pictures/3D/HBM组装.png)
+![HBM TCB-NCF 组装](/images/3D/HBM组装.png)
 
 图片来源：`[PDF]` p.364，Fig. 7.33。
 
@@ -270,7 +270,7 @@ mold / 可选 heat spreader
 
 多层 CoC 时重复“薄化芯片 → microbumps → TSV”单元。
 
-![Intel Foveros 基于 TSV 的 CoC](/pictures/3D/CoC-TSV-Foveros.png)
+![Intel Foveros 基于 TSV 的 CoC](/images/3D/CoC-TSV-Foveros.png)
 
 图片来源：`[PDF]` p.370，Figs. 7.39-7.40。
 
@@ -297,7 +297,7 @@ mold / 可选 heat spreader
 → PCB
 ```
 
-![TSMC SoIC 带 TSV 混合键合](/pictures/3D/混合键合-带TSV-SoIC.png)
+![TSMC SoIC 带 TSV 混合键合](/images/3D/混合键合-带TSV-SoIC.png)
 
 图片来源：`[PDF]` p.373，Fig. 7.44。
 
@@ -323,7 +323,7 @@ mold / 可选 heat spreader
 → PCB
 ```
 
-![Sony IMX260 无 TSV 混合键合](/pictures/3D/混合键合-无TSV-Sony.png)
+![Sony IMX260 无 TSV 混合键合](/images/3D/混合键合-无TSV-Sony.png)
 
 图片来源：`[PDF]` p.374，Fig. 7.47。
 

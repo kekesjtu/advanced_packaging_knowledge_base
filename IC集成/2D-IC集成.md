@@ -15,7 +15,7 @@
 
 若芯片直接贴在 PCB 上，则 `package substrate + BGA solder balls` 可由 PCB 本身取代。
 
-![alt text](/pictures/2D/引线键合.png)
+![alt text](/images/2D/引线键合.png)
 
 ## 2. 倒装芯片（Flip Chip）
 
@@ -40,7 +40,7 @@
 → PCB
 ```
 
-![alt text](/pictures/2D/倒装+引线键合.png)
+![alt text](/images/2D/倒装+引线键合.png)
 
 ## 4. Chip-first 扇出集成
 
@@ -52,7 +52,7 @@
 → PCB
 ```
 
-![alt text](/pictures/2D/chip-first.png)
+![alt text](/images/2D/chip-first.png)
 
 商业例子：
 
@@ -71,7 +71,7 @@
 
 注：典型 Chip-first、face-down 扇出中，芯片先嵌入 EMC，随后直接在芯片焊盘和 EMC 表面制作 RDL。因此不存在倒装贴片的悬空间隙，没有 `C2+ underfill`。
 
-![alt text](/pictures/2D/chip-last.png)
+![alt text](/images/2D/chip-last.png)
 
 商业方案：
 
@@ -87,7 +87,7 @@
 → 多层 organic RDLs（聚合物介质 + 电镀铜），逐级放大线宽、焊盘和间距
 ```
 
-![alt text](/pictures/2D/Hybrid-RDLs.png)
+![alt text](/images/2D/Hybrid-RDLs.png)
 
 商业方案：
 

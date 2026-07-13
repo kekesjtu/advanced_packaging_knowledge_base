@@ -32,7 +32,7 @@ face-down / face-up 是**对 Chip-First 的进一步细分**。
 
 这里的 face 指的是 die active 面，也就是后续要和 RDL 连接的那一面。
 
-![alt text](../pictures/facedown-and-faceup.png)
+![alt text](../images/facedown-and-faceup.png)
 
 **face-up 比 face-down 多了两个关键步骤：**
 
